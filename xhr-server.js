@@ -10,4 +10,4 @@ http.createServer(function (req, res) {
     res.end(JSON.stringify(data));
 }).listen(port, "127.0.0.1");
 
-console.log(`Server funning at http://127.0.0.1:${port}`); F
+console.log(`Server funning at http://127.0.0.1:${port}`);
