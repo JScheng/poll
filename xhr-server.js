@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
         name: 'akira',
         birthday: '12-29'
     };
-    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1');
+    res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:3000');
     res.end(JSON.stringify(data));
 }).listen(port, "127.0.0.1");
 
